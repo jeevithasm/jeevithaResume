@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1, h2, h3 {
+    margin: 0 0 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 0 10px;
+}
+
+#education, #skills, #work-experience, #personal-projects, #certificates, #languages, #interests {
+    margin-bottom: 30px;
+}
+
+.degree, .job, .project, .certificate {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 2px solid #007bff;
+}
+
+.degree h3, .job h3, .project h3, .certificate h3 {
+    margin-top: 0;
+}
+
+.skills {
+    display: flex;
+}
+
+.skills h3 {
+    width: 50%;
+}
+
+.skills ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
